@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Technor-Variable';
+    src: url('../fonts/Technor-Variable.woff2') format('woff2'),
+         url('../fonts/Technor-Variable.woff') format('woff'),
+         url('../fonts/Technor-Variable.ttf') format('truetype');
+         font-weight: 200 900;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Technor-Regular';
+    src: url('../fonts/Technor-Regular.woff2') format('woff2'),
+         url('../fonts/Technor-Regular.woff') format('woff'),
+         url('../fonts/Technor-Regular.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Technor-Medium';
+    src: url('../fonts/Technor-Medium.woff2') format('woff2'),
+         url('../fonts/Technor-Medium.woff') format('woff'),
+         url('../fonts/Technor-Medium.ttf') format('truetype');
+         font-weight: 500;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Technor-Semibold';
+    src: url('../fonts/Technor-Semibold.woff2') format('woff2'),
+         url('../fonts/Technor-Semibold.woff') format('woff'),
+         url('../fonts/Technor-Semibold.ttf') format('truetype');
+         font-weight: 600;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Technor-Bold';
+    src: url('../fonts/Technor-Bold.woff2') format('woff2'),
+         url('../fonts/Technor-Bold.woff') format('woff'),
+         url('../fonts/Technor-Bold.ttf') format('truetype');
+         font-weight: 700;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+html,body{
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+    width: calc(1260px + 2*var(--horizontal-padding));
+}
+.gm-style-iw-tc{
+    display: none !important;
+}
+.gm-style-iw-d{
+    width: 500px;
+}
+
+.gm-style-mtc-bbw{
+    display: none;
+}
+.gmnoprint{
+    display: none;
+}
+.gm-control-active{
+    display: none;
+}
+.gm-style-cc{
+    display: none;
+}
+#root > div > div > div > div > div > div:nth-child(15) > div{
+    display: none;
+}
+.gm-style-iw-d{
+    overflow: hidden !important;
+}
+#root > div > div > div > div > div > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(4) > div > div > div > div.gm-style-iw.gm-style-iw-c{
+    width: 400px;
+    background-color: aqua !important;
+    height: 300px;
+}
+
+.Home{
+
+    margin: 0 auto;
+    
+
+}
+.home-tlo{
+background-image: url("tlo.png");
+height: 100vh;
+display: flex;
+flex-direction: row-reverse;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+.home-block{
+background: #1B2330;
+padding: 90px 120px 34px 148px;
+
+
+}
+h1{
+    color: #FFF;
+    font-family: Technor;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+p{
+    color: #FFF;
+    max-width: 576px;
+    font-family: Technor;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.home-ikona-x{
+   position: absolute;
+   top: 20px;
+   right: 75px;
+}
+a{
+    text-decoration: none;
+}
