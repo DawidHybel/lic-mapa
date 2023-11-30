@@ -8,7 +8,7 @@ const App = () => {
       <Router>
         
         <Routes>
-          <Route path="/Home" element={<Home/>}/>
+          <Route path="/lic-mapa" element={<Home/>}/>
         
         </Routes>
       </Router>
